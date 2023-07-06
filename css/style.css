@@ -28,6 +28,12 @@
 ==================================================*/
 
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600,700);
+@font-face {
+    font-family: 'quaker-free';
+    src: url('fonts/quaker-free.ttf') format('truetype');
+    /* Additional font properties can be defined here */
+  }
+  
 
 /* General
 ==================================================*/
@@ -35,7 +41,7 @@
 html,
 body {
     height: 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'quaker-free', serif, sans-serif;
     line-height: 1.8;
     color: #999
 }
