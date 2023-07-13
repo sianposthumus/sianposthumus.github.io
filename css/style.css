@@ -742,7 +742,7 @@ b i:last-child {
 
 .portfolio .categories-grid .categories ul li a.active {
     margin-left: 0;
-    background-color: #ffbf00;
+    background-color: #76568a;
     padding: 0px 20px;
     color: white;
     border-radius: 25px;
@@ -799,7 +799,7 @@ b i:last-child {
 .portfolio_item .portfolio_item_hover .item_info em {
     font-style: normal;
     display: inline-block;
-    background-color: #ffbf00;
+    background-color: #EAC1D1;
     padding: 5px 20px;
     border-radius: 25px;
     color: #333;
@@ -849,6 +849,16 @@ b i:last-child {
     padding-top: 55px;
 }
 
+.item_info>span {
+    font-family: forum, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.item_info>em {
+    font-family: sans-serif;
+    background-color: #d39cb0
+}
 
 /* footer
 ==================================================*/
@@ -1109,6 +1119,10 @@ font-family: forum, sans-serif;
 /* contact page
 ==================================================*/
 
+ .container, main-container {
+    margin-top: 50px;
+ }
+
 .details-text i {
     margin-right: 10px;
 }
@@ -1184,7 +1198,7 @@ font-family: forum, sans-serif;
 
 .input-contact > span.active,
 .textarea-contact > span.active {
-    color: #ffbf00;
+    color: #3B3666;
     font-size: 10px;
     top: 0px;
     left: 5px;
@@ -1205,12 +1219,13 @@ textarea:focus {
     height: 30px;
     width: 30px;
     display: inline-block;
-    background: #ffbf00;
+    background: #3b3666;
     text-align: center;
     line-height: 33px;
     margin-right: 10px;
     color: #fff;
     font-size: 21px;
+    border-radius: 10px;
 }
 
 .contact-info p {
@@ -1219,22 +1234,49 @@ textarea:focus {
 }
 
 .btn-box {
-    background: #ffbf00;
-    padding: 10px 50px;
-    border-radius: 0;
-    color: #fff;
-    margin-top: 20px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+
+    background-color: #3b3666;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 14px;
     font-weight: 500;
-}
+    height: 40px;
+    width: 100px;
+    line-height: 20px;
+    list-style: none;
+    margin: 10px 0 10px 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
 
 .btn-box:hover,
 .btn-box:focus {
-    background: #F5B700;
-    color: #fff;
+    color: white;
+   background-color: #d29baf;
+  }
+
+.col-md-6 .text-uppercase {
+    font-family: forum, sans-serif;
+    letter-spacing: 2px;
 }
 
+.col-md-6>h5 {
+    color:#76568a;
+    font-size: 1.5rem;
+}
 
 /* single project page
 ==================================================*/
