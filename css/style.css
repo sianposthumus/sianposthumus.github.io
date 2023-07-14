@@ -860,6 +860,14 @@ b i:last-child {
     background-color: #d39cb0
 }
 
+.main-container, .portfolio-inner, .clearfix {
+    margin-top: 80px;
+}
+
+.categories-grid, .wow, .fadeInLeft {
+    margin-bottom: -80px;
+}
+
 /* footer
 ==================================================*/
 
