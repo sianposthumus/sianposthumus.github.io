@@ -1345,14 +1345,71 @@ textarea:focus {
 ==================================================*/
 
 .cat-ul {
-    padding-left: 0;
-    list-style: none
+    padding-left: 100px;
+    list-style: none;
+    color: #3B3666;
 }
 
 .cat-ul li i {
     margin-right: 10px;
-    color: #ffbf00;
+    color: #76568a;
 }
+
+h6 {
+    width: 230px;
+    background-color: #76568a;
+    color: #e9d0d2;
+    font-family: forum, sans-serif;
+    font-size: small;
+    padding: 6px 6px;
+    border-radius: 25px;
+    margin: auto;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+
+.col-md-12, earthwell {
+    margin-top: 100px;
+}
+
+.col-md-3>h4 {
+    margin-left: 80px;
+    margin-top: -10px;
+    font-family: forum, sans-serif;
+    color:#3b3666;
+    letter-spacing: 2px;
+}
+
+.col-md-3 {
+    background-color:#e9d0d2;
+    border-radius: 0 15px 15px 0;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    margin-top: -20px;
+}
+
+.image-gallery {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 6px; /* Add space between images */
+    padding-top: 50px;
+  }
+  
+  /* Add max-width to images to ensure they don't exceed the container */
+  .image-gallery img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Add media query to adjust the number of images per row on smaller screens */
+  @media (max-width: 768px) {
+    .image-gallery {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      justify-content: center;
+    }
+  }
+
 
 
 /* Responsive media queries
