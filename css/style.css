@@ -1372,20 +1372,14 @@ h6 {
     margin-top: 100px;
 }
 
-.col-md-3>h4 {
-    margin-left: 80px;
-    margin-top: -10px;
-    font-family: forum, sans-serif;
-    color:#3b3666;
-    letter-spacing: 2px;
-}
 
 .col-md-3 {
     background-color:#e9d0d2;
     border-radius: 0 15px 15px 0;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: -20px;
+    margin-top: 3px;
+    width: 8.5%;
 }
 
 .image-gallery {
