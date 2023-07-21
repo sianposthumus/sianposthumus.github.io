@@ -1368,12 +1368,12 @@ h6 {
     margin-top: 15px;
 }
 
-.col-md-12, earthwell {
+.col-md-12, .earthwell {
     margin-top: 100px;
 }
 
 
-.col-md-3 {
+.block {
     background-color:#e9d0d2;
     border-radius: 0 15px 15px 0;
     padding-top: 10px;
@@ -1388,6 +1388,7 @@ h6 {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 6px; /* Add space between images */
     padding-top: 50px;
+    margin-bottom: -20px;
   }
   
   /* Add max-width to images to ensure they don't exceed the container */
@@ -1404,6 +1405,63 @@ h6 {
     }
   }
 
+  .brand-description {
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: -180px;
+    margin-top: 90px;
+  }
+
+  .parent-two {
+    height: 100px;
+    width: 100%;
+   }
+   
+   .child-two {
+       height: 80px;
+       width: 100%;
+       display: flex;
+       justify-content:center;
+   }
+   
+   .backtoportfolio {
+       background-color: #3b3666;
+       border-radius: 8px;
+       border-style: none;
+       box-sizing: border-box;
+       color: #FFFFFF;
+       cursor: pointer;
+       display: inline-block;
+       font-family: sans-serif;
+       font-size: 14px;
+       font-weight: 500;
+       height: 40px;
+       line-height: 20px;
+       list-style: none;
+       margin-bottom: 20px;
+       outline: none;
+       padding: 10px 16px;
+       position: relative;
+       text-align: center;
+       text-decoration: none;
+       transition: color 100ms;
+       vertical-align: baseline;
+       user-select: none;
+       -webkit-user-select: none;
+       touch-action: manipulation;
+     }
+   
+     .backtoportfolio:hover,
+   .backtoportfolio:focus {
+       color: white;
+      background-color: #d29baf;
+      text-decoration: none;
+     }
+   
+     .backtoportfolio a{
+       color: white;
+       text-decoration: none;
+     }
 
 
 /* Responsive media queries
