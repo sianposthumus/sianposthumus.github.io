@@ -1463,6 +1463,11 @@ h6 {
        text-decoration: none;
      }
 
+     .addspace {
+        margin: 250px 100px 50px 100px;
+    
+     }
+
 
 /* Responsive media queries
 ==================================================*/
